@@ -1,0 +1,7 @@
+use blog;
+
+insert into materia (titulo, conteudo, assunto_id) values ("Agile 2011, dívida técnica e o Hard Choices", "O evento Agile 2011 aconteceu em Salt Lake City e contou com um misto tracks da indústria e da academia. Junto com o Maurício Aniche foi possível aprender um pouco mais da visão de cada lado, além de presenciar exemplos dessa rica experiência de prática e teoria. A Caelum apresentou o resultado de uma pesquisa interna com seus instrutores de como funciona o aprendizado, qual seu papel e como ele acontece dentro da empresa.",1);
+
+insert into materia (titulo, conteudo, assunto_id) values ("TDD e sua influência no acoplamento e coesão", "Escrever testes de unidade é uma prática cada vez mais adotada. Ela ajuda a verificar se tudo funciona como o esperado mesmo após mudanças, trazendo mais segurança para a equipe ao alterar o código. Mas os testes de unidade vão além, possibilitando a validação de um design.Um código fácil de testar tende a apresentar um bom design. Existe uma grande sinergia entre testabilidade e um bom design. Isso acontece pois, para que o programador consiga testar uma classe de maneira isolada e facilmente, essa classe deve lidar muito bem com suas dependências (buscando sempre um baixo acoplamento) e possuir pouca responsabilidade (ou seja, ser altamente coesa). Caso contrário, o programador gastará muito tempo tentando testá-la, um possível indicador de que a classe apresenta um design pobre.",5);
+
+commit;
